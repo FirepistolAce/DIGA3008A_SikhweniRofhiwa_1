@@ -58,13 +58,7 @@ a.active {
   border-radius: 35px;
 }
 
-.home {
-  display: flex;
-  align-items: center;
-  height: 50vh;
-  padding-top: 60px; /* Offset for fixed navbar */
-  flex: 1;
-}
+
 
 .title {
   flex: 1;
