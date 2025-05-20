@@ -72,22 +72,7 @@ a.active {
   padding: 10px;
 }
 
-.title h1 {
-  font-size: 32px;
-  color: #E0FFFF;
-  transform: translateX(-40px);
-  font-family: 'Cinzel', serif;
-  font-weight: 700;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
-}
 
-.title h2 {
-  font-size: 34px;
-  margin-top: 60px;
-  color: #FFF8E1;
-  font-family: 'Cinzel', serif;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-}
 
 menu-button {
   background-color: teal;
