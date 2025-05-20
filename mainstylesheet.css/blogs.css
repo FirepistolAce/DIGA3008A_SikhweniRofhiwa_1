@@ -145,7 +145,7 @@ body {
     /* 1. Smooth hover zoom effect on blog cards */
 .card img {
   width: 100%;
-  height: 100%;
+  height: 10%;
   object-fit: cover;
   transition: transform 0.3s ease-in-out;
   border-radius: 10px;
@@ -171,7 +171,7 @@ body {
   transition: box-shadow 0.3s ease-in-out;
 }
 
-    .blog-card .blog-text {
+     .blog-text {
         position: absolute;
         bottom: 20px;
         left: 20px;
@@ -190,62 +190,6 @@ body {
   gap: 30px;
   padding: 40px 20px;
   max-width: 1200px;
-}
-
-.blog-card {
-  background-color: #ece7db;
-  border-radius: 12px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  animation: fadeIn 1s ease-out both;
-}
-
-.blog-card:hover {
-  transform: scale(1.02);
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
-}
-
-.blog-card img {
-  width: 100%;
-  height: 155px;
-  object-fit: cover;
-}
-
-.blog-content {
-  padding: 20px;
-  flex-grow: 1;
-}
-
-.blog-content h2 {
-  font-size: 20px;
-  margin: 0 0 10px;
-  color: #2b2b2b;
-  font-family: "Gelasio", serif;
-}
-
-.blog-content p {
-  font-size: 16px;
-  color: #444;
-  margin-bottom: 15px;
-  font-family: "Gelasio", serif;
-}
-
-.read-more {
-  display: inline-block;
-  padding: 8px 16px;
-  background-color: teal;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  font-size: 14px;
-  transition: background-color 0.3s ease;
-}
-
-.read-more:hover {
-  background-color: #008080b3;
 }
 
 
