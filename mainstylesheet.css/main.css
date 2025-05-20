@@ -125,6 +125,7 @@ menu-button {
     text-decoration: none;
     padding: 10px 20px;
     display: inline-block;
+    text-align: right;
   }
 
   nav ul li a:hover {
