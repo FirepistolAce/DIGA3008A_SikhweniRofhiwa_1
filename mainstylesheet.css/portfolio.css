@@ -1,0 +1,36 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: url('../images/background\ image.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+  header {
+    background-color: #06b0a8;
+    color: #fff;
+    text-align: center;
+    
+  }
+  
+  .media-gallery {
+    padding: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .media-item {
+    background-color: #06b0a8;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .media-item img,
+  .media-item video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  

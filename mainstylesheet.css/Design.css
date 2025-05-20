@@ -1,0 +1,28 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: url('../images/background\ image.png') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+  } 
+
+  #design content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* space between image and text */
+    flex-wrap: wrap; /* make it responsive */
+    padding: 40px 20px;
+    text-align: center;
+    border: 2px solid #ccc;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-style: hidden;
+  }
+  .design-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #09e0ce;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+ 

@@ -1,0 +1,76 @@
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background: url('../images/background image.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+
+}
+
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px; /* space between image and text */
+  flex-wrap: wrap; /* make it responsive */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgb(17, 205, 183);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bio {
+  max-width: 600px;
+}
+
+.bio h2 {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+
+.main nav{
+background:teal;
+height: 60px;
+width: 100%;
+}
+.Logo {
+  color:rgb(28, 177, 103);
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 80px;
+  margin: 0 20px;
+
+}
+
+.main nav ul {
+float: right;
+margin-right: 50px;
+margin-top: 20px;
+}
+
+.main nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.main nav ul li a{
+  font-size: 18px;
+  color: cyan;
+  text-decoration: none;
+}
+
+a.active{
+  background: darkslategray;
+  padding: 10px 30px;
+  border-radius: 35px;
+}
