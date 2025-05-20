@@ -60,14 +60,6 @@ a.active {
 
 
 
-.title {
-  flex: 1;
-  text-align: center;
-  padding: 10px;
-}
-
-
-
 menu-button {
   background-color: teal;
   color: #b10505;
@@ -98,22 +90,26 @@ menu-button {
   }
 
   nav ul {
-    display: flex;
+    display:flex;
     flex-direction: column;
     position: fixed;
     top: 60px;
-    right: -120%;
-    width: 100%;
+    right: -100%;
+    width: auto;/*allows content to dictate width*/
+    min-width: 250px;/*minimum width*/
     height: calc(100vh - 60px);
     background-color: rgba(10, 120, 167, 0.888);
-    text-align: center;
+   /* text-align: center;*/
     align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
+    /*justify-content: flex-start;*/
+    /*gap: 20px;*/
     padding-top: 40px;
     transition: right 0.3s ease-in-out;
     z-index: 999;
     overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
   }
 
   nav ul li {

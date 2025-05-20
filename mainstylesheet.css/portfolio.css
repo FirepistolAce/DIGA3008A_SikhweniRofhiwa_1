@@ -11,6 +11,20 @@ body {
     text-align: center;
     
   }
+  .page.title {
+  margin-top: 80px; /* Pushes it below the navbar */
+  text-align: center; /* Optional: Centers the heading */
+}
+
+.page.title h1 {
+  color: white; /* Ensures visibility against the background */
+  font-size: 2.5rem; /* Optional: Makes it larger */
+
+  .page.title h1 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds shadow for contrast */
+}
+}
   
   .media-gallery {
     padding: 2rem;
