@@ -41,10 +41,14 @@ body {
     text-align: center;
   }
   
-  .media-item img,
+  .media-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 123px;
+  }
   .media-item video {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 20px;
   }
   
