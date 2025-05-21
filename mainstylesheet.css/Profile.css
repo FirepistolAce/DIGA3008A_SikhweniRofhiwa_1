@@ -37,7 +37,7 @@ body{
   margin-bottom: 1rem;
 }
 
-
+/*repeated code*//*
 .main nav{
 background:teal;
 height: 60px;
@@ -73,4 +73,5 @@ a.active{
   background: darkslategray;
   padding: 10px 30px;
   border-radius: 35px;
-}
+}*/
+

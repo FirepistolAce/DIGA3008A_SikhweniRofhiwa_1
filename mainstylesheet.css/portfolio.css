@@ -44,11 +44,11 @@ body {
   .media-item img {
     width: 100%;
     height: auto;
-    border-radius: 123px;
+    border-radius: 12px;
   }
   .media-item video {
     width: 100%;
     height: auto;
-    border-radius: 20px;
+    border-radius: 10px;
   }
   
