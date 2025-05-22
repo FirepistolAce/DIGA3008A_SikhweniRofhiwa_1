@@ -267,3 +267,19 @@ body {
 .blog-card {
   animation: fadeIn 0.6s ease-out both;
 }
+h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #fff;
+  margin: 100px 0 20px; /* Increased top margin to push it below navbar */
+  padding-top: 20px; /* Added padding for extra spacing */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: relative; /* Ensures it stays above the blurred background */
+  z-index: 1; /* Keeps it visible above other elements */
+}
+.blog-content-container h1 {
+  margin: 0 auto 20px; /* Centers horizontally with margin auto */
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+}
