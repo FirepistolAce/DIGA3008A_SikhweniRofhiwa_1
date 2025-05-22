@@ -69,7 +69,7 @@ a.active {
 
 
 menu-button {
-  background-color: teal;
+  background-color: rgba(0, 58, 58, 0.85);
   color: #b10505;
   padding: 10px 20px;
   border: none;

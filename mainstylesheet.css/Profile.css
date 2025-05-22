@@ -11,7 +11,7 @@ body{
 
 .about-content {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
+  flex-direction: column; /* Stacked items vertically */
   align-items: center;
   padding: 40px 20px;
   text-align: center;
@@ -44,7 +44,7 @@ body{
 }
 
 .bio h2 {
-  font-size: 2rem;
+ 
   color: #222;
   margin-bottom: 1rem;
    font-family: 'Josefin Sans', sans-serif;
@@ -61,7 +61,7 @@ body{
 .bio p {
   font-family: 'Noto Serif JP', serif;
   line-height: 1.6;
-  font-size: 1.1rem;
+  font-size: 1.8rem;
 }
 /* Responsive adjustment */
 @media screen and (max-width: 768px) {
