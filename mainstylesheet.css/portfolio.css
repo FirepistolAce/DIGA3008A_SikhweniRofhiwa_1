@@ -17,7 +17,7 @@ body {
 }
 
 .page.title h1 {
-  color: white; /* Ensures visibility against the background */
+  color: #09e0ce; /* Ensures visibility against the background */
   font-size: 2.5rem; /* Optional: Makes it larger */
 
   .page.title h1 {
