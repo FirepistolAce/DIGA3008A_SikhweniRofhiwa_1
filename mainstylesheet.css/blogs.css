@@ -270,7 +270,7 @@ body {
 h1 {
   text-align: center;
   font-size: 32px;
-  color: #fff;
+  color: rgba(10, 80, 90, 0.7);
   margin: 100px 0 20px; /* Increased top margin to push it below navbar */
   padding-top: 20px; /* Added padding for extra spacing */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
