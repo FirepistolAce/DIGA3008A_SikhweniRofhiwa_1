@@ -1,11 +1,13 @@
 body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Gelasio', serif;
   background: url('../images/background image.png') no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   margin: 0;
+  font-family: 400;
+  line-height: 1.6;
 }
 
 .main nav {

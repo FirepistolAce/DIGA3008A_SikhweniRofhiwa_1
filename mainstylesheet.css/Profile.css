@@ -1,6 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
 body{
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
   background: url('../images/background image.png') no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
@@ -29,6 +30,7 @@ body{
 .bio {
   max-width: 600px;
   margin-top: 20px; /* Added space above text */
+
 }
 
 .bio h2 {
