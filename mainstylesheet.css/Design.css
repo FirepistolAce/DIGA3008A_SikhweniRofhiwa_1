@@ -7,12 +7,12 @@ body {
 }
 h1 {
     margin-top: 100px;
-    /*text-align: left;*/
+    text-align: center;
 }
   #design-content {
     display: flex;
     align-items: center;
-    justify-content:center;
+    /*justify-content:center;*/
     gap: 30px; /* space between image and text */
     flex-wrap: wrap; /* make it responsive */
     padding: 80px 20px;
@@ -30,7 +30,6 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
  
-
   .design-text {
     max-width: 600px;
     font-size: 18px;
