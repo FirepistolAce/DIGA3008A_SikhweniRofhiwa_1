@@ -11,7 +11,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="./mainstylesheet.css/home.css">
-<script defer src="./mainstylesheet.js/home.js"></script>
+<script defer src="./scripts/home.js"></script>
 
       
 
@@ -44,6 +44,14 @@
   </div>
 
       </div>
+      <!-- Add this button where you want it in your homepage HTML -->
+<div class="music-player">
+  <button id="playMusicBtn" class="music-btn">
+    <span class="icon">♫</span>
+    <span class="text">Play My Current Rotation</span>
+  </button>
+  <audio id="musicPlayer" loop></audio>
+</div>
       <footer class="site-footer">
         <div class="social-links">
             <a href="https://github.com/FirepistolAce" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>

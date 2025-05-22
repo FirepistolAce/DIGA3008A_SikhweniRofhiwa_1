@@ -64,3 +64,62 @@
     font-size: 1rem;
   }
 }
+/* Music Player Button Styles */
+.music-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.music-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.music-btn:active {
+  transform: translateY(0);
+}
+
+.music-btn .icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+/* Animation when music is playing */
+.music-btn.playing .icon {
+  animation: pulse 0.6s infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .music-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
+  .music-btn .icon {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+}
