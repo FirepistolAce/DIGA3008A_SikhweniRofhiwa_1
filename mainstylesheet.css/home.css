@@ -123,3 +123,130 @@
     margin-right: 8px;
   }
 }
+/* Model Showcase */
+.content-sections {
+  background: rgba(0, 20, 20, 0.9);
+  padding: 4rem 2rem;
+}
+
+.model-showcase, .skills-gallery {
+  max-width: 1200px;
+  margin: 0 auto 4rem;
+}
+
+.model-showcase h2, .skills-gallery h2 {
+  text-align: center;
+  color: #00ffc3;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.model-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.model-card {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.model-card:hover {
+  transform: translateY(-10px);
+}
+
+.model-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.model-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 58, 58, 0.8);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Noto Serif JP', serif;
+}
+
+/* Skills Gallery */
+.skills-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.skill-item {
+  width: 80px;
+  height: 80px;
+  background: rgba(0, 255, 195, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid rgba(0, 255, 195, 0.3);
+}
+
+.skill-item:hover {
+  background: rgba(0, 255, 195, 0.2);
+  transform: scale(1.1);
+  border-color: #00ffc3;
+}
+
+.skill-item i {
+  font-size: 2.5rem;
+  color: #00ffc3;
+}
+
+.skill-item img {
+  width: 50%;
+  height: auto;
+}
+
+.skill-tooltip {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 58, 58, 0.9);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  white-space: nowrap;
+}
+
+.skill-item:hover .skill-tooltip {
+  opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .model-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .skill-item {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .skill-item i {
+    font-size: 2rem;
+  }
+}
