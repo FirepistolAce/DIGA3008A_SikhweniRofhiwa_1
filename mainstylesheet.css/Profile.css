@@ -10,12 +10,11 @@ body{
 
 .about-content {
   display: flex;
+  flex-direction: column; /* Stack items vertically */
   align-items: center;
-  justify-content: center;
-  gap: 30px; /* space between image and text */
-  flex-wrap: wrap; /* make it responsive */
   padding: 40px 20px;
   text-align: center;
+  gap: 20px; /* Reduced gap between image and text */
 }
 
 .profile-pic {
@@ -29,6 +28,7 @@ body{
 
 .bio {
   max-width: 600px;
+  margin-top: 20px; /* Added space above text */
 }
 
 .bio h2 {
@@ -36,7 +36,12 @@ body{
   color: #222;
   margin-bottom: 1rem;
 }
-
+/* Responsive tweak for smaller screens */
+@media (max-width: 600px) {
+  .bio {
+    padding: 0 15px;
+  }
+}
 /*repeated code*//*
 .main nav{
 background:teal;
