@@ -218,3 +218,72 @@
     font-size: 2rem;
   }
 }
+/* Anime Fact Box - matches .feature-box styling and responsiveness */
+.anime-fact-box {
+  background-color: rgba(0, 58, 58, 0.8);
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  max-width: 700px;
+  width: 100%;
+  margin: 2rem auto 0;
+  text-align: center;
+  color: #f0f0f0;
+  font-family: 'Cinzel', serif;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  animation: fadeInUp 1.5s ease;
+}
+
+.anime-fact-box h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #00ffc3;
+}
+
+.anime-fact-box button {
+  background: rgba(0, 255, 195, 0.2);
+  color: #00ffc3;
+  border: 2px solid rgba(0, 255, 195, 0.3);
+  padding: 12px 24px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2rem;
+}
+
+.anime-fact-box #factDisplay {
+  min-height: 80px;
+  padding: 1.5rem;
+  background: rgba(0, 20, 20, 0.6);
+  border-radius: 10px;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  border: 1px solid rgba(0, 255, 195, 0.1);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .anime-fact-box {
+    padding: 1.5rem 2rem;
+  }
+
+  .anime-fact-box h2 {
+    font-size: 2rem;
+  }
+
+  .anime-fact-box button {
+    font-size: 1rem;
+  }
+
+  .anime-fact-box #factDisplay {
+    font-size: 1rem;
+  }
+}
