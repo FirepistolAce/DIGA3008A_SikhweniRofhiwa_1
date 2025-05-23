@@ -59,9 +59,9 @@ body{
   }
 }
 .bio p {
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Gelasio', serif;
   line-height: 1.6;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 /* Responsive adjustment */
 @media screen and (max-width: 768px) {

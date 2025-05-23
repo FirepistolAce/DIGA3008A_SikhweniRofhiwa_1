@@ -1,6 +1,6 @@
 /* home.css — Homepage-specific styling */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');/* Importing Cinzel font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');/* Importing Josefin Sans font */    
 
 .home {
   position: relative;
