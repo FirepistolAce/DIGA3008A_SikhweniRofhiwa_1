@@ -67,7 +67,7 @@ h2, h3 {
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));/* Adjusting the number of columns based on screen size */
     gap: 20px;
     padding: 10px;
 }
@@ -112,7 +112,7 @@ h2, h3 {
     text-decoration: underline;
 }
 
-/* Responsive Design */
+/* Responsive Design for mobile  */
 @media (max-width: 768px) {
     .content-container {
         margin: 80px 15px 30px;
@@ -141,7 +141,7 @@ h2, h3 {
     }
 }
 
-/* Custom Scrollbar */
+/* Custom Scrollbar  made for the content */
 .scrollable-content::-webkit-scrollbar {
     width: 8px;
 }

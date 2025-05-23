@@ -203,7 +203,7 @@
   opacity: 1;
 }
 
-/* Responsive */
+/* Responsive adjudtment for mobile */
 @media (max-width: 768px) {
   .model-grid {
     grid-template-columns: 1fr;
