@@ -329,6 +329,9 @@ body {
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
+.essay-card {
+  /* All original card styles remain exactly the same */
+}
 
 /* ============ RESPONSIVE ADJUSTMENTS ============ */
 @media (max-width: 768px) {
