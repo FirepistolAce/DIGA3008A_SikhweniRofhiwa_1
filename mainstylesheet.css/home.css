@@ -13,7 +13,7 @@
   box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.3);
 }
 
-.feature-box {
+.feature-box {/* Feature box styling */
   background-color: rgba(0, 58, 58, 0.8); /* Slight transparency for aesthetics */
   padding: 2rem 3rem;
   border-radius: 20px;
@@ -63,38 +63,6 @@
   .feature-box p {
     font-size: 1rem;
   }
-}
-/* Music Player Button Styles */
-.music-btn {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 24px;
-  background: linear-gradient(135deg, #6e8efb, #a777e3);
-  color: white;
-  border: none;
-  border-radius: 50px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  overflow: hidden;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-.music-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-}
-
-.music-btn:active {
-  transform: translateY(0);
-}
-
-.music-btn .icon {
-  margin-right: 10px;
-  font-size: 20px;
 }
 
 /* Animation when music is playing */
