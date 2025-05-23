@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UX & UI Analysis - Essay 1</title>
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="../mainstylesheet.css/normalize.css" />
     <link rel="stylesheet" href="../mainstylesheet.css/main.css" />
     <link rel="stylesheet" href="../mainstylesheet.css/essay.css" />
@@ -10,34 +12,49 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <script src="../scripts/backtotop.js"></script>
-    <title>essay 1</title>
+    <!-- JavaScript -->
+    <script src="../scripts/backtotop.js" defer></script>
   </head>
   <body>
+    <!-- Navigation Bar (keep exactly as is) -->
     <div class="main nav">
       <nav>
         <input type="checkbox" id="check" />
         <label for="check" class="menu-button">
-          <i class="fa-solid fa-bars"></i>
-        </label>
+          <i class="fa-solid fa-bars"></i
+        ></label>
         <label for="Logo" class="Logo">Theo</label>
-        <img src="../images/icon.png" id="icon" alt="logo" />
+        <img src="..//images/icon.png" id="icon" alt="logo" />
         <ul>
           <li><a href="../index.html">Home</a></li>
           <li><a href="../Profile/profile.html">Profile</a></li>
           <li><a href="../Portfolio/portfolio.html">Portfolio</a></li>
           <li><a href="../Design/design.html">Design</a></li>
           <li><a href="../blog/blogs.html">Blogs</a></li>
-          <li><a href="../Essays/essay.html" class="active">Essays</a></li>
+          <li><a href="../Essays/essay.html">Essays</a></li>
         </ul>
       </nav>
-    </div>
-    <h1>UX & UI Analysis</h1>
-    <p>
-      <img src="../images/Picture1.jpg" />
-      Figure1 (AVIJOZI, 2025) shows the presentation section at the function.
-    </p>
-    <p>
+
+    <!-- Essay Content Container -->
+    <div class="blog-content-container">
+      <div class="blur-overlay"></div>
+      <div class="scrollable-content">
+        <!-- Essay Header -->
+        <div id="inside-header">
+          <h1>UX & UI Analysis</h1>
+
+          
+          <p>
+            <img
+              src="../images/Picture1.jpg"
+              alt="AVIJOZI presentation section"
+              class="essay-image"
+            />
+            Figure1 (AVIJOZI, 2025) shows the presentation section at the
+            function.
+          </p>
+
+          <p>
       AVOJOZI is a creative industry festival or event that takes place in
       Johannesburg South Africa every year, hence its name. It aims to connect
       technicians, animators, writers, artist and more not just on a local scale
@@ -93,8 +110,44 @@
       covered.
     </p>
     <p>
-      <img src="../images/Picture2.png" alt="" />
-      Figure 2 (AVIJOZI, 2025) navigation bar
-    </p>
+            <img
+              src="../images/Picture2.png"
+              alt="AVIJOZI navigation bar"
+              class="essay-image"
+            />
+            Figure 2 (AVIJOZI, 2025) navigation bar
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
+   <footer class="site-footer">
+      <div class="social-links">
+        <a href="https://github.com/FirepistolAce" target="_blank" aria-label="GitHub"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/rofhiwa-sikhweni-8352b5318?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BCohS2LMTR%2FyTtENFYFq1Hw%3D%3D"
+          target="_blank"
+          aria-label="LinkedIn"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/theo_giv_?igsh=ZnVpbGxzOW0weXZy"
+          target="_blank"
+          aria-label="Instagram"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.tiktok.com/@theogiv?_t=ZM-8wD8w26qyL0&_r=1"
+          target="_blank"
+          aria-label="TikTok"
+          ><i class="fab fa-tiktok"></i
+        ></a>
+        <a href="mailto:sikhwenirofhiwa@gmail.com" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+      <p class="copyright">© 2025 THEO. ALL RIGHTS RESERVED.</p>
+    </footer>
 </html>
