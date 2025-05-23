@@ -10,7 +10,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <title>Essay page</title>
+    <title>Essays</title>
   </head>
   <body>
     <div class="main nav">
@@ -35,15 +35,32 @@
     <h1 class="essay-title">My Essays</h1>
 
     <div id="essay-nav">
-      <!-- Essay cards will be dynamically inserted here by JavaScript -->
+      <ul>
+        <li>
+          <a href="essay1.html" class="essay-card">
+            <div class="essay-text">Essay One</div>
+            <div class="essay-hover-content">
+              <p><h2>Ethics, UI, UX, and Interaction</h2></p>
+              <p>Interaction on the web is structured through the UI and UX.</p>
+              <span class="essay-read-more">Read Essay</span>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="essay2.html" class="essay-card">
+            <div class="essay-text">Essay Two</div>
+            <div class="essay-hover-content">
+              <p>TBA</p>
+              <span class="essay-read-more">Read Essay</span>
+            </div>
+          </a>
+        </li>
+      </ul>
     </div>
 
     <footer class="site-footer">
       <div class="social-links">
-        <a
-          href="https://github.com/FirepistolAce"
-          target="_blank"
-          aria-label="GitHub"
+        <a href="https://github.com/FirepistolAce" target="_blank" aria-label="GitHub"
           ><i class="fab fa-github"></i
         ></a>
         <a
@@ -71,6 +88,6 @@
       <p class="copyright">© 2025 THEO. ALL RIGHTS RESERVED.</p>
     </footer>
 
-    <script src="../scripts/essay.js"></script>
+    
   </body>
 </html>
