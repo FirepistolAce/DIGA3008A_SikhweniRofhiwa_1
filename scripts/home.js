@@ -25,7 +25,7 @@ const skillItems = document.querySelectorAll('.skill-item');
 skillItems.forEach(item => {
   item.addEventListener('click', (e) => {
     const skill = item.dataset.skill;
-    // Add your custom behavior here
+    // Example action: log the skill or show a modal
     console.log(`Skill clicked: ${skill}`);
     // Example: Could link to portfolio pieces or show more info
   });
