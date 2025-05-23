@@ -1,14 +1,16 @@
-
-// anime-facts.js - Standalone Anime Fact Generator
+// anime-facts.js - Mobile-Friendly Anime Fact Generator
 document.addEventListener("DOMContentLoaded", function() {
   // Create container
   const factsContainer = document.createElement('div');
   factsContainer.id = 'animeFactsContainer';
   factsContainer.className = 'shadowbox anime-fact-generator';
+  
+  // Responsive styling
   factsContainer.style.cssText = `
-    width: 700px;
+    width: 90%;
+    max-width: 700px;
     margin: 20px auto;
-    padding: 2rem 3rem;
+    padding: 1.5rem;
     background: rgba(0, 58, 58, 0.8);
     border-radius: 20px;
     text-align: center;
@@ -18,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
     animation: fadeInUp 1.5s ease;
   `;
 
-  
+  // Add HTML structure
   factsContainer.innerHTML = `
     <h2 class="anime-fact-title">Anime Fact Generator</h2>
     <button id="generateFactBtn" class="anime-fact-btn">Generate Fact</button>
@@ -27,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
   `;
 
-  
+  // Add to your desired location
   const insertAfterElement = document.querySelector('.shadowbox') || 
                            document.querySelector('.feature-box') || 
                            document.querySelector('main');
@@ -38,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.appendChild(factsContainer);
   }
 
-  // Anime facts data i came up with 
+  // Anime facts data
   const animeFacts = [
     "The term 'anime' comes from the English word 'animation'.",
     "Studio Ghibli's logo features Totoro from My Neighbor Totoro.",
@@ -62,11 +64,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 300);
   });
 
-  // Add animations
+  // Add responsive styles
   const style = document.createElement('style');
   style.textContent = `
     .anime-fact-title {
-      font-size: 2.8rem;
+      font-size: clamp(1.8rem, 6vw, 2.8rem);
       margin-bottom: 1rem;
       font-family: 'Josefin Sans', sans-serif;
       color: #00ffc3;
@@ -75,14 +77,16 @@ document.addEventListener("DOMContentLoaded", function() {
       background: rgba(0, 255, 195, 0.2);
       color: #00ffc3;
       border: 2px solid rgba(0, 255, 195, 0.3);
-      padding: 12px 24px;
+      padding: 0.8rem 1.5rem;
       border-radius: 50px;
       cursor: pointer;
       font-weight: bold;
       margin-bottom: 1.5rem;
       transition: all 0.3s ease;
       font-family: 'Josefin Sans', sans-serif;
-      font-size: 1.2rem;
+      font-size: clamp(1rem, 4vw, 1.2rem);
+      width: 90%;
+      max-width: 250px;
     }
     .anime-fact-btn:hover {
       background: rgba(0, 255, 195, 0.3);
@@ -90,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     .anime-fact-display {
       min-height: 80px;
-      padding: 1.5rem;
+      padding: 1rem;
       background: rgba(0, 20, 20, 0.6);
       border-radius: 10px;
       font-style: italic;
@@ -98,9 +102,11 @@ document.addEventListener("DOMContentLoaded", function() {
       align-items: center;
       justify-content: center;
       font-family: 'Noto Serif JP', serif;
-      font-size: 1.2rem;
-      line-height: 1.6;
+      font-size: clamp(1rem, 4vw, 1.2rem);
+      line-height: 1.5;
       border: 1px solid rgba(0, 255, 195, 0.1);
+      margin: 0 auto;
+      width: 90%;
     }
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(10px); }
@@ -109,6 +115,21 @@ document.addEventListener("DOMContentLoaded", function() {
     @keyframes fadeOut {
       from { opacity: 1; transform: translateY(0); }
       to { opacity: 0; transform: translateY(-10px); }
+    }
+    
+    /* Mobile-specific adjustments */
+    @media (max-width: 480px) {
+      #animeFactsContainer {
+        padding: 1rem;
+        width: 95%;
+      }
+      .anime-fact-btn {
+        padding: 0.6rem 1.2rem;
+      }
+      .anime-fact-display {
+        min-height: 70px;
+        padding: 0.8rem;
+      }
     }
   `;
   document.head.appendChild(style);
