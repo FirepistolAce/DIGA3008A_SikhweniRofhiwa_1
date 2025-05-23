@@ -329,10 +329,6 @@ body {
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
-/* ============ EXISTING ESSAY CARD STYLES (unchanged) ============ */
-.essay-card {
-  /* All original card styles remain exactly the same */
-}
 
 /* ============ RESPONSIVE ADJUSTMENTS ============ */
 @media (max-width: 768px) {
@@ -357,7 +353,7 @@ body {
   }
 }
 
-/* ============ EXISTING SCROLLBAR STYLES (unchanged) ============ */
+
 .scrollable-content::-webkit-scrollbar {
   width: 8px;
 }
@@ -366,5 +362,3 @@ body {
   background: #09e0ce;
 }
 
-/* ============ KEEP ALL OTHER EXISTING STYLES ============ */
-/* All other styles from your original file remain untouched below this point */
