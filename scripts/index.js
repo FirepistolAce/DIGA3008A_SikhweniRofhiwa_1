@@ -7,5 +7,5 @@ window.addEventListener("load", () => {
 
 // Link to your main website (replace with your actual URL)
 document.getElementById("continueBtn").addEventListener("click", () => {
-    window.location.href = "index.html"; // Update this!
+    window.location.href = "home.html"; // Update this!
 });

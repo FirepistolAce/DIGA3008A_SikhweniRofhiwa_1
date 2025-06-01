@@ -3,106 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Sikhweni Rofhiwa" />
-      <link rel="stylesheet" href="./mainstylesheet.css/normalize.css" />
-      <link rel="stylesheet" href="./mainstylesheet.css/main.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-      <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="./mainstylesheet.css/home.css">
-      <script></script>
-<script src="./scripts/home.js"></script>
-<!--<script src="./scripts/index.js"></script>-->
-<script src="./scripts/backtotop.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-
-      
-
-
-    <title>Homepage</title>
+    <title>Load Screen</title>
+    <link rel="stylesheet" href="./mainstylesheet.css/loadscrn.css" />
+    <script src="./scripts/index.js" defer></script>
   </head>
-
   <body>
-    <div class="main nav">
-    <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="menu-button"> <i class="fa-solid fa-bars"></i></label>
-      <label for="Logo" class="Logo">Theo</label>
-      <img src=".//images/icon.png" id="icon" alt="logo" />
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="Profile/profile.html" >Profile</a></li>
-          <li><a href="Portfolio/portfolio.html">Portfolio</a></li>
-          <li><a href="Design/design.html">Design</a></li>
-          <li><a href="blog/blogs.html">Blogs</a></li>
-          <li><a href="Essays/essay.html">Essays</a></li>
-        </ul>
-      </nav>
+    <div class="loader-container" id="loader">
+      <div class="dots">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <p>Loading...</p>
     </div>
-
-    <div class="home">
-       <div class="feature-box">
-    <h1>Welcome to My World</h1>
-    <p>Step into my universe of design, art, and code. Scroll down or explore the tabs to discover who I am, what I create, and how I think.</p>
-  </div>
-
+    <div class="content" id="content">
+      <div class="quote-container">
+        <h1>
+          “A person grows up when he's able to overcome hardships.<br />
+          Protection is important, but there are some things a person<br />
+          must learn on his own.” <br />
+          -Jiraiya
+        </h1>
+        <button id="continueBtn">Continue</button>
       </div>
-      <div class="content-sections">
-  
-  <section class="model-showcase">
-    <h2>3D Models </h2>
-    <div class="model-grid">
-      <div class="model-card">
-        <img src="./images/low-poly character.png" alt="Blender Model 1">
-        <div class="model-info">Character Design - 2024</div>
-      </div>
-      <div class="model-card">
-        <img src="./images/sign post .png" alt="Blender Model 2">
-        <div class="model-info">Environment Art - 2024</div>
-      </div>
-    </div>
-  </section>
-   <section class="skills-gallery">
-    <h2>Skillset</h2>
-    <div class="skills-grid">
-      <div class="skill-item" data-skill="html">
-        <i class="fab fa-html5"></i>
-        <span class="skill-tooltip">HTML5 Markup</span>
-      </div>
-      <div class="skill-item" data-skill="css">
-        <i class="fab fa-css3-alt"></i>
-        <span class="skill-tooltip">CSS3 Styling</span>
-      </div>
-
-  <div class="skill-item" data-skill="krita">
-    <i class="fas fa-paint-brush"></i>
-    <span class="skill-tooltip">Digital Painting (Krita)</span>
-  </div>
-  <div class="skill-item" data-skill="blender">
-    <i class="fas fa-cube"></i>
-    <span class="skill-tooltip">3D Modeling (Blender)</span>
-  </div>
-      <div class="skill-item" data-skill="music">
-        <i class="fas fa-music"></i>
-        <span class="skill-tooltip">Music Curation</span>
-      </div>
-    </div>
-  </section>
-</div>
-      <footer class="site-footer">
-        <div class="social-links">
-            <a href="https://github.com/FirepistolAce" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/rofhiwa-sikhweni-8352b5318?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BCohS2LMTR%2FyTtENFYFq1Hw%3D%3D" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://www.instagram.com/theo_giv_?igsh=ZnVpbGxzOW0weXZy" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.tiktok.com/@theogiv?_t=ZM-8wD8w26qyL0&_r=1" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-            <a href="mailto:sikhwenirofhiwa@gmail.com" aria-label="Email">
-              <i class="fas fa-envelope"></i>
-            </a>
-        </div>
-        <p class="copyright">© 2025 THEO. ALL RIGHTS RESERVED.</p>
-    </footer>
     </div>
   </body>
 </html>
