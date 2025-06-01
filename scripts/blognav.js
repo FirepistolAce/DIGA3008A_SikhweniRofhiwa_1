@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Hide arrows if at first/last blog (optional)
     const currentBlog = window.location.pathname.split('/').pop();
-    const blogOrder = ["blog1.html", "blog2.html", "blog3.html", "blog4.html",]; // Update with your blog filenames
+    const blogOrder = ["blog1.html", "blog2.html", "blog3.html", "blog4.html"]; // Update with your blog filenames
     
     const prevArrow = document.querySelector('.prev');
     const nextArrow = document.querySelector('.next');
