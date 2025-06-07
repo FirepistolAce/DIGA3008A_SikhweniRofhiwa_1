@@ -62,7 +62,7 @@ a.active {
 .main ul li a:hover {
     background-color: #006666;
     color: white;
-    border-radius: 35px;
+    border-radius: 15px;
     padding: 5px 10px;
   }
 
