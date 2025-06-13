@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Using reliable Animechan API
   const API_URL = 'https://animechan.xyz/api/random';
 
-  // Expanded fallback quotes (10+ quotes)
+
   const FALLBACK_QUOTES = [
     {
       quote: "Hard work is worthless for those that don't believe in themselves.",
