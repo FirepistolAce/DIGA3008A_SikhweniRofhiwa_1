@@ -3,25 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="../mainstylesheet.css/normalize.css" />
     <link rel="stylesheet" href="../mainstylesheet.css/main.css" />
-    <link rel="stylesheet" href="../mainstylesheet.css/Profile.css">
+    <link rel="stylesheet" href="../mainstylesheet.css/Profile.css" />
+    <link rel="stylesheet" href="../mainstylesheet.css/quote.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-<link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-   
+
     <title>Profile page</title>
   </head>
   <body>
     <div class="main nav">
       <nav>
-        <input type="checkbox" id="check">
-      <label for="check" class="menu-button"> <i class="fa-solid fa-bars"></i></label>
-        <label for="Logo" class="Logo">Theo</label>
+        <input type="checkbox" id="check" />
+        <label for="check" class="menu-button"
+          ><i class="fa-solid fa-bars"></i
+        ></label>
+        <label class="Logo">Theo</label>
         <img src="../images/icon.png" id="icon" alt="logo" />
         <ul>
           <li><a href="../home.html">Home</a></li>
@@ -41,44 +45,65 @@
           alt="My Profile Picture"
           class="profile-pic"
         />
-
         <div class="bio">
           <h2>Hi, I'm Theo formally known as Sikhweni Rofhiwa</h2>
           <p>
             I'm a digital art and interactive media student passionate about
-            animation, storytelling, and creative technology. 
-            My work blends visual design with interactive elements
-            to create engaging digital experiences.
+            animation, storytelling, and creative technology.
           </p>
           <p>
-            Skilled in tools like Blender, Unity, and
-            krita, I aim to bridge the gap between creativity and innovation.
+            Skilled in tools like Blender, Unity, and Krita, I aim to bridge the
+            gap between creativity and innovation.
           </p>
           <p>
             Outside of school, I love curating music, watching anime (Naruto
             forever), and experimenting with new digital tools.
           </p>
           <p>
-            feel free to get in touch with me via my social media links below. 
-            
+            Feel free to get in touch with me via my social media links below.
           </p>
-          </div>
         </div>
       </div>
     </main>
-   
-  </div>
-  <footer class="site-footer">
-        <div class="social-links">
-            <a href="https://github.com/FirepistolAce" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/rofhiwa-sikhweni-8352b5318?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BCohS2LMTR%2FyTtENFYFq1Hw%3D%3D" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://www.instagram.com/theo_giv_?igsh=ZnVpbGxzOW0weXZy" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.tiktok.com/@theogiv?_t=ZM-8wD8w26qyL0&_r=1" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-            <a href="mailto:sikhwenirofhiwa@gmail.com" aria-label="Email">
-              <i class="fas fa-envelope"></i>
-            </a>
+
+    <section class="anime-quote-container">
+      <div class="anime-quote-box">
+        <h3><i class="fas fa-quote-left"></i> Anime Wisdom</h3>
+        <div class="quote-content">
+          <p id="quoteText">
+            "When you give up, your dreams and everything else, they're gone."
+          </p>
+          <p id="quoteSource">— Naruto Uzumaki (Naruto)</p>
         </div>
-        <p class="copyright">© 2025 THEO. ALL RIGHTS RESERVED.</p>
+        <button id="quoteBtn" class="anime-quote-button">
+          <i class="fas fa-random"></i> New Quote
+        </button>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="social-links">
+        <a href="https://github.com/FirepistolAce" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/rofhiwa-sikhweni-8352b5318"
+          target="_blank"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a href="https://www.instagram.com/theo_giv_" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.tiktok.com/@theogiv" target="_blank"
+          ><i class="fab fa-tiktok"></i
+        ></a>
+        <a href="mailto:sikhwenirofhiwa@gmail.com"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </div>
+      <p class="copyright">© 2025 THEO. ALL RIGHTS RESERVED.</p>
     </footer>
+
+    <script src="../scripts/quote.js"></script>
   </body>
 </html>
