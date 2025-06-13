@@ -1,4 +1,4 @@
-/* home.css — Homepage-specific styling */
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');/* Importing Cinzel font */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');/* Importing Josefin Sans font */    
 
@@ -25,7 +25,7 @@
   animation: fadeInUp 1.5s ease;
 }
 
-.feature-box h1 {
+.feature-box h1 { /* Main heading styling */
   font-size: 2.8rem;
   margin-bottom: 1rem;
   font-family: 'Josefin Sans', sans-serif;
@@ -146,15 +146,15 @@
   font-family: 'Noto Serif JP', serif;
 }
 
-/* Skills Gallery */
-.skills-grid {
+
+.skills-grid { /* Skills Gallery */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
 }
 
-.skill-item {
+.skill-item {/* Individual Skill Item */
   width: 80px;
   height: 80px;
   background: rgba(0, 255, 195, 0.1);
@@ -218,7 +218,7 @@
     font-size: 2rem;
   }
 }
-/* Anime Fact Box - matches .feature-box styling and responsiveness */
+/* Anime Fact Box */
 .anime-fact-box {
   background-color: rgba(0, 58, 58, 0.8);
   padding: 2rem 3rem;

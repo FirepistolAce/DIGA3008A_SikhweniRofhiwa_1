@@ -34,7 +34,7 @@
     transform: scale(1.1);
 }
 
-/* Hide arrows on very small screens */
+/*  this hides the navigation arrows on very small screens */
 @media (max-width: 480px) {
     .blog-nav {
         bottom: 20px;

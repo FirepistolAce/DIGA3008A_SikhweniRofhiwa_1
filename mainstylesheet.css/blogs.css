@@ -12,7 +12,6 @@ body {
   color: #e0ffff;
 }
 
-/* New Blog Content Container */
 .blog-content-container {
   position: relative;
   max-width: 1200px;
@@ -41,7 +40,7 @@ body {
   padding: 20px;
 }
 
-/* Blog Post Styling */
+
 .blog-post {
   background: rgba(20, 60, 70, 0.6);
   padding: 25px;
@@ -72,7 +71,7 @@ body {
   border-radius: 10px;
 }
 
-/* Existing Blog Navigation Styles (Keep All These) */
+
 #blog-nav {
   display: flex;
   justify-content: center;

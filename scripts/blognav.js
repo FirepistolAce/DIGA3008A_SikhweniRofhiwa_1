@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "blog8.html",
         "blog9.html",
         "blog10.html",
+        "blog11.html"
           // Add all your blogs here
     ];
 

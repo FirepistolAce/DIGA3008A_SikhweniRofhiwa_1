@@ -1,4 +1,4 @@
-/* Portfolio Page Styling - Updated to match feature box styling */
+
 body {
   font-family: 'Cinzel', serif;
   background: url('../images/background\ image.png') no-repeat center center fixed;
@@ -73,7 +73,7 @@ header {
   transform: scale(1.03);
 }
 
-/* Updated description text to match feature box */
+
 .media-item p {
   margin-top: 1rem;
   font-size: 1.2rem;
