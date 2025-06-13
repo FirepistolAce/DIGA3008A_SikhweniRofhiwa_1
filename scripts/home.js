@@ -1,4 +1,4 @@
-// home.js — Simple dynamic interaction
+
 document.addEventListener("DOMContentLoaded", () => {
   const box = document.querySelector(".feature-box");
 

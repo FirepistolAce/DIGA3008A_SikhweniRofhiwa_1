@@ -12,7 +12,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "blog9.html",
         "blog10.html",
         "blog11.html"
-          // Add all your blogs here
+          // This is where i update the number of blogs
+
     ];
 
     const currentBlog = window.location.pathname.split('/').pop();

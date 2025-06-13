@@ -1,10 +1,11 @@
-// ANIME QUOTE API WITH 10+ FALLBACK QUOTES
+
 document.addEventListener('DOMContentLoaded', function() {
   const quoteBtn = document.getElementById('quoteBtn');
   const quoteText = document.getElementById('quoteText');
   const quoteSource = document.getElementById('quoteSource');
 
-  // Using reliable Animechan API
+  // Using reliable Animechan API we can fetch random anime quotes
+  // If the API fails, we will use a fallback list of quotes
   const API_URL = 'https://animechan.xyz/api/random';
 
 

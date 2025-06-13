@@ -1,4 +1,4 @@
-// backtotop.js - Simple Back to Top Button
+
 document.addEventListener('DOMContentLoaded', function() {
   // Create the button element
   const backToTopBtn = document.createElement('button');
@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   backToTopBtn.setAttribute('aria-label', 'Back to top');
   document.body.appendChild(backToTopBtn);
 
-  // Style the button through JavaScript to avoid CSS conflicts
+// Styling the button
   backToTopBtn.style.position = 'fixed';
   backToTopBtn.style.bottom = '20px';
   backToTopBtn.style.right = '20px';
