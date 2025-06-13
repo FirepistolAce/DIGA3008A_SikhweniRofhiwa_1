@@ -41,141 +41,123 @@
       <div class="scrollable-content">
         
         <div id="inside-header">
-          <h1>Reflection on the Implementation of the Website (final project)
-</h1>
+          <h1>Reflection on the Implementation of the Website (final project)</h1>
+
+          <h2>Reflection on My Website Implementation</h2>
 
           <p>
-      America enacted the Protecting Americans from Foreign Adversary Controlled Applications Act in April 2024, 
-      which among other provisions, requires ByteDance, the Chinese parent company of TikTok, to demerge US operations 
-      or be prohibited as a federal act (PAFACA, 2024). In January 2025, the U.S. Supreme Court and, on national security 
-      and First Amendment grounds, declared it constitutional (TikTok v Garland, 2025). 
-      Follow-on 75-day holds were not used by President Trump but rather than immediate legal enactment money in mid-June 2025 invested in. 
-      The thesis of this essay is that the TikTok scandal illustrates how digital infrastructure is a geopolitics sandbox and enables digital
-      coloniality exercisable wherein Western powers exercise digital sovereignty regimes with asymmetrical effects.  
-      Referencing theoretical descriptions of internet geographies (Graham, 2014) and digital coloniality (Birhane, 2020), 
-      the essay illustrates how banning TikTok disrespects data sovereignty for techno-nationalistic benefit for social digital disbenefit.
-    </p>
-    <h2> Context & Case Description</h2>
-    <p>
-    
+      This is the little corner in my website where I get to talk and give you a glimpse into my mind. 
+      This design journey has been nothing short of demanding if I may say but, are not all the things that matter. 
+      I cannot say there haven’t been times when I haven’t thought of giving up but, I had to remind myself that this is a 
+      journey and I'm only getting started.<br>
 
-     TikTok, with its more than 170 million US visitors, was quickly becoming a centre of next-gen youth, influencers, and political blunders.
-     Congress voted on PAFACA in April 2024, mandating ByteDance out by 19 January 2025 or face prohibition. 
-     It passed bipartisan supermajorities (360–58 House; 79 to 18 Senate) following backroom briefing of the national security threat. 
-     Legislative critics and judiciary responded with an argument that they had no concrete evidence Chinese spymasters were employing 
-     TikTok as a spyware tool and even undermining American free speech. TikTok also had brought a suit TikTok v Garland on First Amendment 
-     and takings clause grounds. The Supreme Court, per curium opinion dated (17 January 2025), reinstated the Act and embraced data 
-     sovereignty and the "not substantially broader than necessary" government policy. 
-     The Court rationale for the same was to keep foreign rivals at arm's length in U.S. 
-     data aggregation in case it was being regulating speech.
-     By June 2025, Trump delays the ban due to slow negotiations among Chinese state and US investors such as Oracle and Blackstone.
-     The case is thus a long asymmetric fight between digital sovereignty and worldwide digital trade.
+      I have to say that I have learned a lot about myself and my design process, I have learned that I am a very indecisive person 
+      and that I have to learn to trust my gut and go with my first instinct. I have also learned that I must be more open to feedback 
+      and criticism as it is a particularly important part of the design process. Another aspect I learnt was to be more patient with myself 
+      and my work as this is a process and it takes time to get it right.<br>
+
+      This website project allowed me to apply what I have learned this semester and reflect on how my UI (User Interface) and 
+      UX (User Experience) design choices shaped the structure and coding of my site.
 
     </p>
-    <h2>Theoretical Framework</h2>
+    <h2> Folder Structure: Organization for Scalability and Maintainability</h2>
     <p>
-      The TikTok ban case reminds us how three theoretical pillars intersect with one another:
-      <h3>1. Internet Geographies & Digital Hegemonies</h3>
+    A well-organized folder structure is the foundation of any efficient web development project. 
+    From the very beginning, I prioritized clarity and logical separation to ensure that my project would be easy to navigate, 
+    modify, and scale in the future. I divided my files into distinct folders:
+    <br>
+      •	HTML – Containing all markup files
+      •	CSS – Housing stylesheets
+      •	JavaScript – Storing scripts for interactivity
+      •	Images – Managing all visual assets<br>
+
+      From the beginning, I prioritized an organized folder structure with a clear hierarchy. I separated my files into distinct folders 
+      for HTML, CSS, JavaScript, and images, following the principle of separation of concerns. This approach kept the presentation, logic, 
+      and content layers meticulously organized, making navigation and updates more efficient. Consistent naming conventions also ensured 
+      scalability, so future expansions or modifications will be straightforward. It also ensured that each aspect of the project had its 
+      own dedicated space, making debugging and updates significantly easier. For example, if I needed to adjust a styling rule, 
+      I knew exactly where to find the relevant CSS file without sifting through unrelated code.<br>
+
+      Additionally, I maintained consistent naming conventions (e.g., header.css for header-related styles, script.js for main functions) 
+      to avoid confusion. This practice not only helped me during development but would also make it easier for another developer to 
+      understand my project structure if they were to collaborate on it later. One challenge I faced was deciding whether to further break 
+      down CSS or JavaScript files into smaller modules (e.g., separate files for animations, layouts, or components). 
+      While I initially considered this, I opted for a single CSS and JS file for this project due to its small scale. 
+      However, for larger applications, I now recognize the benefit of modularizing styles and scripts even further to improve 
+      maintainability.
+
+    </p>
+    <h2>Semantic Markup</h2>
+    <p>
+      In my HTML, I used semantic tags like <header>, <main>, <section>, <article>, and <footer> to provide meaningful structure. 
+      This improved accessibility, helping screen readers and assistive technologies interpret the content correctly. 
+      I also ensured buttons, links, and forms were clearly labeled and functional, enhancing usability for all users. 
+      Semantic markup not only made my code cleaner but also more intuitive. All my html files had clear understandable titles that 
+      appear on the URL window whenever a user navigates to a different page, just to assist and aid in the semantic mark up as well 
+      as structuring of my website.</p><br>
+<h2>Metadata: Optimizing for SEO and Cross-Browser Consistency</h2>
+      <P>
+Metadata might seem like a minor detail, but it plays a crucial role in how browsers and search engines interpret a website. 
+In the <head> section of each HTML file, I included:<br>
+
+•	Viewport settings (meta name="viewport" content="width=device-width, initial-scale=1.0">) to ensure responsive behaviour on mobile devices.<br> 
+
+•	Character encoding (meta charset="UTF-8">) to handle special characters and symbols correctly.<br>
+
+•	Page-specific titles and descriptions to improve SEO and user experience when the site appears in search results.<br>
+
+      By including these elements, I ensured that my website would load correctly across different browsers and devices, 
+      providing a consistent user experience. The viewport settings were particularly important for mobile responsiveness, 
+      allowing the site to adapt to various screen sizes without losing functionality or readability. 
+      The character encoding ensured that all text displayed correctly, regardless of the characters used, which is essential for 
+      internationalization and accessibility. Page-specific titles and descriptions not only improved SEO but also helped users 
+      understand the content of each page at a glance, enhancing navigation and usability.
+      I included essential metadata in the (head) section of each HTML file to optimize browser interpretation and responsiveness. 
+      Proper viewport settings, character encoding, and page-specific titles and descriptions improved SEO and ensured 
+      consistent rendering across devices. This diligence helps the site load correctly and appear appropriately in search results.
+
+      </P>
+      <h2>CSS was one of the most challenging yet rewarding aspects of this project. My primary goals were:</h2>
       <p>
-       Graham (2014) contends that online networks are spoken from material weaponries of power wherein territorial hierarchies 
-       of Western tech monopolies are inscribed. Ballatore et al. (2017) define the way search on search engines spectacularly 
-       territorialized and state-bound instances internet platforms are bounded by territorial geopolitics. In the case of TikTok, 
-       one can see how the content, code, and information on the website are in national control and authority 
-       and not an unbiased global platform.</p><br>
+        
+         1.	Avoiding inline styles – Keeping all styling in an external stylesheet for consistency and easier updates.<br>
 
-      <h3>2. Coloniality & Algorithmic Domination:</h3>
-      <p>Birhane (2020) demonstrates how algorithmic networks enacts and re-enacts these colonial relations of power, 
-       i.e., on the continent of Africa. TikTok melodrama is truly a decolonial concern worldwide: Western nations asserting digital 
-       sovereignty not to protect their own but to exert normative and cultural hegemony over what digital streams of information will 
-       be permitted. This is friendship to 'techno-colonial' policy, as non-Western places are being forced to fit into Western-norming 
-       digital stratifications (Verdi, 2020).</p><br>
+         2.	Responsive design – Ensuring the site looked good on all devices using media queries.<br>
 
-      <h3>3. Digital Inequalities & Data Sovereignty</h3>
-      <p>Lutz (2019) and Robinson et al. (2015) discuss global network size inequality of the digital through politicized access
-         and capacity. The US target has reprehensible levels of TikTok attention but symmetrical ratios of risk potential observation
-         targeting by U.S. and EU-hosted applications. This is because there exists a presence of an asymmetry in a loose sense: 
-         data sovereignty geopolitically interested bits and privacy protection asymmetries.</p>
-<h2>Critical Analysis</h2>
-    </p>
-     The US response to the regulation of TikTok would be digital coloniality. Tying together collectively as the 
-     "foreign adversary" (PAFACA, 2024) gives the latter party a political and moral high ground in their argument about what sites 
-     are allowable. Refusal of proof of Chinese government spying on its people on a state level shuts down good-faith assumption on 
-     the government's part. Legality in this case is more the misuse of speculations upon information authorized for national security 
-     and authorized under Supreme Court precedent. The model of regulation is predicated upon hegemonies on the internet: 
-     US web hegemony beyond proper geopolitical scope, app store regulation, and judiciary overreach (Graham, 2014). 
-     A hypothetical US institutional takeover of TikTok would turn it into a Western platform that lost platform sovereignty, 
-     pluralized and digitalized space, and diversity of non-Western values.<br>
+         3.	Modularity – Grouping related styles together (e.g., navigation styles in one section, typography in another).<br>
 
+         To maintain consistency, I avoided inline styles and relied on an external CSS file. This allowed me to reuse styles across pages 
+         and make global changes efficiently. I organized my CSS with logical class and ID naming, grouping related styles for better 
+         readability. The design is fully responsive, using media queries to adapt layouts for mobile, tablet, and desktop screens. 
+         Keeping the CSS clean and modular ensures easy maintenance for future updates. Not to mention each of my styling files have a 
+         descriptive name that goes hand in hand with the task that they perform to not get confused when changing or fixing code.
 
-    Second is algorithmic manipulation of democracy. Ibrahim et al. (2025) built Republican political message bias based on algorithmic 
-    recommendation on TikTok in the approach to the 2024 American election, as proof of algorithmic exposure to political messaging. 
-    The ban thus also marks contested digital public space and political message ownership at the intersection of digital coloniality studies.
-    Second, selective US enforcement is also normatively skewed. While TikTok enters the spotlight in the wake of the standoff with the 
-    Trump administration, Facebook, Google, and Twitter among US rivals have room to practice relatively low-key national-security 
-    monitoring on similar data-gathering and foreign-state commerce. US "digital sovereignty" practice thus tolls geopolitics 
-    rather than rule of law.
-    By sceptic denials, there are theories that it is driven by citizens' and democratic state-nation competition data security, 
-    meanwhile. That virtual openness-nation security dualism is the context under which Graham's (2014) dystopian theories of the internet 
-    as plural but geopolitically circumscribed, and Birhane's (2020) excitement over algorithmic power asymmetry.
+      </p>
+      <h2>JavaScript: Balancing Interactivity and Performance</h2>
+   <p>
+    JavaScript brought my website to life by adding dynamic features such as:<br>
 
-    
-    </p>
+      •	An interactable glowing feature box in the home screen.<br>
+
+      •	Scroll back to top button.<br>
+
+      •	Navigation buttons in between blogs.<br>
+
+      I avoided inline scripts and instead used an external JavaScript file with event listeners (click, scroll) and DOM manipulation 
+      to keep functionality separate from markup.<br>
+
+      I used JavaScript to enhance interactivity, such as grabbing the user’s attention both in the load screen and the home screen with 
+      a quote box and an interactable feature glowing box. Event listeners and DOM manipulation ensured smooth user interactions. 
+      All scripts were placed in a separate file, and reusable functions (like class back up button) were kept modular for better 
+      performance and readability. 
+   </p>
     <h2>Conclusion</h2>
-    <p>
-      US divestment or ban of TikTok is a trend, not a privacy concern or trade war that demonstrates how digital infrastructure establishes 
-      a borderland of digital coloniality and tech diplomacy. The representation is asymmetrical with symmetrical norms: 
-      non-Western platforms need to be disarmed and obligatory for non-Western platforms. In this case, PAFACA is a matter of data protection 
-      and not an American cyber space and international internet standard ordering hegemony. 
-      Until there is a desire by policymakers for the decolonization of the internet, they will have no option but to stretch beyond 
-      extraterritorial platform claims.<br>
-      For example, worldwide multilateral data regimes, rigorous contemplation regarding regulating algorithms ad hoc and suspended 
-      protections on all platforms. In Graham's (2014) view, the internet's future hangs in the balance on the wire-thin tight wire 
-      between global openness and national regulation. Whatever has occurred on the topic of TikTok in America can be consulted 
-      and tracked to attempt to build more inclusive, more equitable digital worlds.
-
-    </p>
-    
-          <h3>References  </h3>
-          <p>
-            Ballatore, A., Graham, M. and Sen, S., 2017. Digital hegemonies: The localness of search engine results. 
-            Annals of the American Association of Geographers, 107(5), pp.1194–1215. https://doi.org/10.1080/24694452.2017.1308240
-          <p> 
-           Birhane, A., 2020. Algorithmic colonization of Africa. SCRIPTed, 17(2), pp.389–409. https://doi.org/10.2966/scrip.170220.389
-          <p>
-           Congress.gov, 2024. Protecting Americans from Foreign Adversary Controlled Applications Act, Public Law 118-50. 
-           [online] Available at: https://www.congress.gov/bill/118th-congress/house-bill/815 [Accessed 12 Jun. 2025].
-          </p>
-          <p>
-            Graham, M., 2014. Internet geographies: Data shadows and digital divisions of labour. In: M. Graham and W.H. 
-            Dutton, eds. Society and the Internet: How Networks of Information and Communication are Changing Our Lives. Oxford: 
-            Oxford University Press, pp.99–116. https://doi.org/10.1093/acprof:oso/9780199661992.003.0006
-          </p>
-          <p>
-          Lutz, C., 2019. Digital inequalities in the age of artificial intelligence and big data. 
-          Human Behavior and Emerging Technologies, 1(2), pp.141–148. https://doi.org/10.1002/hbe2.140
-          </p>
-          <p>
-            Reuters, 2025. Supreme Court again imposes law prohibiting TikTok in US. [online] Reuters. 
-            Available at: https://www.reuters.com/legal/us-lawmakers-cheer-supreme-court-upholding-tiktok-ban-law-2025-01-17/ 
-            [Accessed 12 Jun. 2025].
-          </p>
 <p>
-  Reuters, 2025. Chung, A., Kruzel, J. and Shepardson, D., Supreme Court to uphold ban of TikTok in US. 
-  [online] Available at: https://www.reuters.com/legal/supreme-court-hear-fight-over-looming-us-ban-tiktok-2025-01-10/ 
-  [Accessed 12 Jun. 2025].
-</p>
-<p>
-  The Guardian, 2025. Is TikTok a national security threat – or is the ban a ruse to hide superpower rivalry? 
-  [online] Available at: 
-  https://www.theguardian.com/technology/2025/jan/23/is-tiktok-a-national-security-threat-or-is-the-ban-a-ruse-to-conceal-superpower-rivalry 
-  [Accessed 12 Jun. 2025].
-</p>
-<p>
-  The Wall Street Journal, 2025. Trump extends deadline for banning TikTok—again. 
-  [online] Available at: https://www.wsj.com/politics/policy/trump-tiktok-ban-extension-f242c36a [Accessed 12 Jun. 2025].
-</p>
-<p>
-  U.S. Supreme Court, 2025. TikTok v. Garland, 604 U.S. ___ (2025). [Court case].
+  Overall, my website’s structure and functionality were guided by UI/UX principles. A modular, accessible, and user-friendly 
+  approach not only improved the experience for visitors but also made the codebase more organized and scalable. 
+  This project deepened my understanding of how front-end and back-end decisions impact the final product, 
+  reinforcing the importance of thoughtful development practices. Not forgetting the importance of planning out what you want to do 
+  from the beginning, rather than that freestyling as time goes.
 </p>
         </div>
       </div>
